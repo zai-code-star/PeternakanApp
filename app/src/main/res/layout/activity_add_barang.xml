@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="40dp"
+        android:text="Tambah Item"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="360dp"
+        android:layout_height="720dp"
+        app:srcCompat="@drawable/bottomsheet"
+        android:layout_marginTop="154dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Nama Barang" />
+
+    <EditText
+        android:id="@+id/edittextusername"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Atur nama barang"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Kategori" />
+
+    <EditText
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="285dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Atur jenis barang"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Tanggal" />
+
+    <EditText
+        android:id="@+id/tanggaledit"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="370dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Atur tanggal"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/buttontanggalkeluar"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="380dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/iconstanggal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Total Stok (Atur Stok Awal)" />
+
+    <EditText
+        android:layout_width="210sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Jumlah"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <EditText
+        android:layout_width="95sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="460dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Satuan"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="530dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Keterangan" />
+
+    <EditText
+        android:id="@+id/tanggalview"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="545dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Tambah keterangan"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="615dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Harga" />
+
+    <EditText
+        android:id="@+id/edithargabarag"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="630dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Harga barang"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/buttonjual"
+        android:layout_width="328dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginLeft="16dp"
+        android:padding="12dp"
+        android:text="Simpan"
+        android:textColor="@color/primary"
+        app:icon="@null"
+        android:textSize="14sp"
+        app:backgroundTint="#FFBB00"
+        app:cornerRadius="100dp"
+        app:iconGravity="textStart"
+        app:iconPadding="0dp"
+        app:iconTint="@android:color/transparent"
+        app:strokeColor="@android:color/transparent"
+        app:strokeWidth="0dp"
+        android:onClick="onButtonJualClick" />
+
+    </FrameLayout>
+</ScrollView>

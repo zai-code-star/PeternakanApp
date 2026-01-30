@@ -1,0 +1,13 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- Set warna latar belakang -->
+    <solid android:color="@color/abu" />
+
+    <!-- Set dimensi -->
+    <size
+        android:width="320px"
+        android:height="173px" />
+
+
+</shape>

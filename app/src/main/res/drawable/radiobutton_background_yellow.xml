@@ -1,0 +1,5 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/kuning"/> <!-- Ganti dengan warna yang sesuai -->
+    <size android:width="20dp" android:height="20dp"/> <!-- Sesuaikan ukuran lingkaran -->
+</shape>

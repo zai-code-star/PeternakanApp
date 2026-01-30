@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State untuk item yang aktif -->
+    <item android:drawable="@color/white" android:state_checked="true"/>
+    <!-- State untuk item yang tidak aktif -->
+    <item android:drawable="@android:color/transparent"/>
+</selector>

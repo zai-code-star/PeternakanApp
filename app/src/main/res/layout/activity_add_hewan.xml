@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary"
+    android:fillViewport="true">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:backgroundTint="@color/primary"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        app:srcCompat="@drawable/ic_back" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="17dp"
+        android:text="Tambah Hewan"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/ic_line" />
+
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="335dp"
+        android:layout_height="32dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:textStyle="bold"
+        android:text="Lengkapi terlebih dahulu data hewan ternak yang akan kamu tambahkan " />
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="360dp"
+        android:layout_height="1080dp"
+        app:srcCompat="@drawable/bottomsheet"
+        android:layout_marginTop="154dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Jumlah hewan" />
+
+    <EditText
+        android:id="@+id/edittextusername"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Atur Jumlah hewan"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+ <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Kode Tag" />
+
+    <EditText
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Ar1"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="295dp"
+        app:srcCompat="@drawable/ic_cross" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="270dp"
+        android:layout_marginLeft="216dp"
+        android:textColor="@color/toska"
+        android:text="Warna Tag" />
+
+    <EditText
+        android:id="@+id/edittextTag"
+        android:layout_width="80sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="280dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Kuning"
+        android:textColorHint="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <ImageButton
+            android:id="@+id/tagdown"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="285dp"
+            android:background="@color/white"
+            app:srcCompat="@drawable/ic_bawah" />
+
+        <ImageButton
+        android:id="@+id/imageButtoncross"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:background="@color/white"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="295dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Jenis Kelamin" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:layout_marginLeft="16dp"
+        android:checked="true"
+        android:text="Jantan" />
+
+  <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_marginTop="370dp"
+      android:layout_marginLeft="120dp"
+      android:text="Betina" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Kategori" />
+
+    <EditText
+        android:id="@+id/edittextkategori"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="450dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Penggemukan Kambing"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/tagkategori"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="460dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_bawah" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="520dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Jenis Kambing" />
+
+    <EditText
+        android:id="@+id/edittagjenis"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="530dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Jenis Kambing"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/buttonTagJnis"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="540dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/ic_bawah" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Tanggal" />
+
+    <EditText
+        android:id="@+id/tanggalview"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="610dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="Atur tanggal Masuk"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <ImageButton
+        android:id="@+id/buttontanggal1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="620dp"
+        android:background="@color/white"
+        app:srcCompat="@drawable/iconstanggal" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="685dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Bobot Masuk" />
+
+    <EditText
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="695dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Bobot Masuk"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="770dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Siap Dijual ?" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="760dp"
+        android:layout_marginLeft="290dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="820dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Harga" />
+
+    <EditText
+        android:id="@+id/editTextHarga"
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="830dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Harga"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="8sp"
+        android:layout_marginTop="900dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="@color/toska"
+        android:text="Usia Hewan" />
+
+    <EditText
+        android:layout_width="328sp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="910dp"
+        android:background="@drawable/edit_text_background"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Usia Hewan"
+        android:textColorHint="@color/abu"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="@+id/textView2"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8sp"
+            android:layout_marginTop="980dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/toska"
+            android:text="Lapor Sakit" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_marginTop="1000dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/abu"
+            android:text="Apakah hewan sakit ?" />
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1000dp"
+            android:layout_marginLeft="290dp"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonjual"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1150dp"
+            android:layout_marginLeft="16dp"
+            android:padding="12dp"
+            android:text="Simpan"
+            android:textColor="@color/primary"
+            app:icon="@null"
+            android:textSize="14sp"
+            app:backgroundTint="#FFBB00"
+            app:cornerRadius="100dp"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@android:color/transparent"
+            app:strokeColor="@android:color/transparent"
+            app:strokeWidth="0dp"
+            android:onClick="onButtonJualClick" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/buttonhapus"
+            android:layout_width="157dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="1150dp"
+            android:layout_marginLeft="181dp"
+            android:paddingEnd="24dp"
+            android:text="Hapus"
+            android:textColor="@color/kuning"
+            app:icon="@null"
+            app:backgroundTint="@android:color/transparent"
+            app:strokeColor="#FFBB00"
+            app:strokeWidth="0.75dp"
+            app:cornerRadius="100dp"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            app:iconTint="@android:color/transparent"
+            android:onClick="onButtonLaporClick" />
+
+
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PeternakanApps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <!-- Add the line below to customize EditText text color hint -->
+        <item name="android:editTextStyle">@style/EditTextStyle</item>
+    </style>
+
+    <style name="Theme.PeternakanApps" parent="Base.Theme.PeternakanApps" />
+
+    <!-- Style for customizing EditText text color hint -->
+    <style name="EditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:textColorHint">#39938E</item>
+    </style>
+
+    <style name="ThemeOverlay.PeternakanApps.FullscreenContainer" parent="">
+        <item name="fullscreenBackgroundColor">@color/light_blue_900</item>
+        <item name="fullscreenTextColor">@color/light_blue_A400</item>
+    </style>
+</resources>

@@ -1,0 +1,39 @@
+<!-- edit_text_background.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true">
+        <layer-list>
+            <!-- Garis bawah -->
+            <item android:top="45dp">
+                <shape android:shape="line">
+                    <stroke
+                        android:width="0.4dp"
+                        android:color="@color/primary" />
+                </shape>
+            </item>
+            <!-- Background kosong untuk memberikan jarak -->
+            <item android:top="18dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+    <item>
+        <layer-list>
+            <!-- Garis bawah -->
+            <item android:top="45dp">
+                <shape android:shape="line">
+                    <stroke
+                        android:width="0.4dp"
+                        android:color="@android:color/darker_gray" />
+                </shape>
+            </item>
+            <!-- Background kosong untuk memberikan jarak -->
+            <item android:top="18dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@android:color/transparent" />
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>
