@@ -1,4 +1,4 @@
-# 🐄 Peternakan App
+# 🐄 Peternakan App UI
 
 **Peternakan App** adalah aplikasi mobile untuk membantu pengelolaan usaha peternakan secara digital.  
 Aplikasi ini memudahkan pencatatan data hewan, stok pakan, penjualan, serta riwayat transaksi dalam satu sistem yang sederhana dan mudah digunakan.
